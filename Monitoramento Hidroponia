@@ -1,15 +1,14 @@
-#include <Arduino.h>
-#include <WiFi.h>
 #include <PubSubClient.h>
+#include <WiFi.h>
 #include <freertos/FreeRTOS.h>
 #include <freertos/task.h>
 
 
-#define pot1 38 //simulação de um sensor
+#define pot1 36 //simulação de um sensor
 #define pot2 39
-#define pot3 37
-const char* ssid = "TP-LINK";
-const char* password =  "cotia_252";
+#define pot3 34
+const char* ssid = "TP-LINK_BF1DCE";
+const char* password = "zelia@252";
 const char* mqttServer = "projetoembarcado.duckdns.org";
 const int mqttPort = 1883;
 const char* mqttUser = "admin";
