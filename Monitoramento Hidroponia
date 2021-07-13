@@ -1,6 +1,4 @@
 #include <Arduino.h>
-//Programa: Modulo ESP32 Wifi com MQTT
-//Autor: Arduino e Cia
 #include <WiFi.h>
 #include <PubSubClient.h>
 #include <freertos/FreeRTOS.h>
